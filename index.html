@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Guess The Number</h1>
+    <div class="container">
+      <h2>Game Started</h2>
+
+      <div class="block">
+        <p>
+          Computer Generated Number <br />
+          Guess the number! (1-100)
+        </p>
+
+        <h3 id="result">Result</h3>
+      </div>
+
+      <input id="userInput" type="text" placeholder="Guess Number" />
+
+      <div class="box">
+        <button onclick="startGame()">Submit</button>
+        <button onclick="reset()">Play Again 🍕</button>
+      </div>
+    </div>
+  </body>
+</html>
